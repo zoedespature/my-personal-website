@@ -9,31 +9,22 @@
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+1.  **Start developing.**
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
-
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
-
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
+    To run your site locally:
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    cd my-personal-website/
+    gatsby develop
     ```
 
-3.  **Open the code and start customizing!**
+2.  **Open the code and start customizing!**
 
     Your site is now running at http://localhost:8000!
 
     Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
+3.  **Learn more**
 
     - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
@@ -49,6 +40,14 @@
 
 ## 🚀 Quick start (Gatsby Cloud)
 
+This website has not been deployed yet - will probably use Google Firebase
+
 Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
 
 [<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+
+## Syntax Hints
+
+  - In JSX, you can embed any JavaScript expression by wrapping it with `{}`. This way, you can access a prop of an object. 
+
+  - Use the `Link` component for linking between pages within your site. For external links to pages not created by your Gatsby site, use the regular HTML `<a>` tag.

@@ -23,6 +23,9 @@ const codeStyles = {
   borderRadius: 4,
 }
 
+
+/* Define your component. Note that your
+component name should start with a capital letter. */
 const NotFoundPage = () => {
   return (
     <main style={pageStyles}>
@@ -44,6 +47,8 @@ const NotFoundPage = () => {
   )
 }
 
+/* Export your component so it
+can be used by other parts of your app. */
 export default NotFoundPage
 
 export const Head = () => <title>Not found</title>
