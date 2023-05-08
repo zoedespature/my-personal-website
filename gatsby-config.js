@@ -14,5 +14,6 @@ module.exports = {
         path: `C:/Users/zoe.despature/Desktop/my-personal-website/blog`,
       }
     },
+    "gatsby-plugin-mdx",
   ],
 }
