@@ -1,11 +1,19 @@
+:root {
+    --purple: #5d176a;
+    --purple-light: #835a7c;
+    --dark-gray: #3c3c3c;
+    --white: #ffff;
+    --light-gray: #D3D3D3;
+}
+
 .container {
     margin: auto;
-    max-width: 500px;
+    max-width: 50vw;
     font-family: sans-serif;
   }
 
 .heading {
-    color: rebeccapurple;
+    color: var(--purple-light);
 }
 
 .nav-links {
@@ -21,3 +29,10 @@
 .nav-link-text {
     color: black;
 }
+
+.site-title {
+    font-size: 3rem;
+    color: gray;
+    font-weight: 700;
+    margin: 3rem 0;
+  }

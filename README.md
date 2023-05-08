@@ -54,6 +54,8 @@ Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cl
 
   - To apply classes to React components, use the `className` prop
 
+  - GraphiQL is a helpful tool for testing out your GraphQL queries before you add them to your code. That way, you can make sure your queries always respond with the data you expect. Access it at [GraphiQL](http://localhost:8000/___graphql)
+
 ## Plugins 
 
 To add a plugin to your site, you’ll use the following process:
