@@ -11,7 +11,7 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: `blog`,
-        path: `C:/Users/zoe.despature/Desktop/my-personal-website/blog`,
+        path: `/Users/zoedespature/Desktop/my-personal-website/blog`,
       }
     },
     "gatsby-plugin-mdx",
